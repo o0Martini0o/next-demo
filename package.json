@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.15.8",
+    "autoprefixer": "^10.3.7",
     "classnames": "^2.3.1",
     "date-fns": "^2.25.0",
     "gray-matter": "^4.0.3",
