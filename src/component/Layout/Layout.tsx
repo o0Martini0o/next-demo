@@ -7,7 +7,9 @@ import { Images } from '../Images'
 const name = 'Eric Lee'
 export const siteTitle = 'Next.js Sample Website'
 
-export const Layout = ({ children, home }) => {
+
+export const Layout = (props) => {
+  const { children, home } = props
   return (
       <div className={styles.container}>
         <Head>
